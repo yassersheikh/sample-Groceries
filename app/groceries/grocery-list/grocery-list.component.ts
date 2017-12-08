@@ -8,7 +8,7 @@ declare var UIColor: any;
 
 @Component({
   selector: "gr-grocery-list",
-  moduleId: module.id,
+  moduleId: __filename,
   templateUrl: "./grocery-list.component.html",
   styleUrls: ["./grocery-list.component.css"],
   changeDetection: ChangeDetectionStrategy.OnPush

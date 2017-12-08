@@ -12,7 +12,7 @@ import { alert, LoginService, User } from "../shared";
 
 @Component({
   selector: "gr-login",
-  moduleId: module.id,
+  moduleId: __filename,
   templateUrl: "./login.component.html",
   styleUrls: ["./login-common.css", "./login.component.css"],
 })

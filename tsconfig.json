@@ -13,6 +13,9 @@
         ],
         "baseUrl": ".",
         "paths": {
+            "~/*": [
+                "app/*"
+            ],
             "*": [
                 "./node_modules/tns-core-modules/*",
                 "./node_modules/*"
@@ -21,7 +24,10 @@
     },
     "exclude": [
         "node_modules",
-        "platforms",
-        "**/*.aot.ts"
-    ]
+        "platforms"
+    ],
+    "angularCompilerOptions": {
+        "skipMetadataEmit": true,
+        "genDir": "./"
+    }
 }

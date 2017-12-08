@@ -12,7 +12,7 @@ import { LoginService, alert } from "../shared";
 
 @Component({
   selector: "gr-groceries",
-  moduleId: module.id,
+  moduleId: __filename,
   templateUrl: "./groceries.component.html",
   styleUrls: ["./groceries-common.css", "./groceries.component.css"],
   providers: [GroceryService]
