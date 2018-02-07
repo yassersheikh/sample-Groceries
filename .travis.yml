@@ -2,7 +2,7 @@ env:
     global:
         - NODE_VERSION=6.9.4
 
-language: android
+language: android12121223
 
 jdk: oraclejdk8
 
